@@ -70,7 +70,7 @@ int main()
 	HWND console = GetConsoleWindow();
 	RECT r;
 	GetWindowRect(console, &r);
-	MoveWindow(console, r.left, r.top, 800, 600, TRUE); // first# width, second# height
+	MoveWindow(console, r.left, r.top, 675, 600, TRUE); // first# width, second# height
 	HANDLE hColor;
 	hColor = GetStdHandle(STD_OUTPUT_HANDLE);
 	titleScreen();
